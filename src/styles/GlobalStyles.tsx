@@ -27,4 +27,8 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing:border-box;
         background:rgb(235 235 235);;
     }
+    
+    @media(max-width:1000px) {
+        font-size:14px;
+    }
 `

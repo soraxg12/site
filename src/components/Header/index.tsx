@@ -9,15 +9,15 @@ export const Header = () => {
                     <div></div>
                 </li>
                 <li>
+                    <a href="#">Informações</a>
+                    <div></div>
+                </li>
+                <li>
                     <a href="#">Formações</a>
                     <div></div>
                 </li>
                 <li>
                     <a href="#">Habilidades</a>
-                    <div></div>
-                </li>
-                <li>
-                    <a href="#">Links</a>
                     <div></div>
                 </li>
             </ul>

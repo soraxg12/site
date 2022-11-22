@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import { Academic } from './components/Academic'
 import { Card } from './components/Card'
+import { Contacts } from './components/Contact'
 import { Header } from './components/Header'
 import { Section } from './components/Section'
+import { WrapperRow } from './styles/wrapperStyles'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,8 +13,14 @@ function App() {
     <>
       <Header/>
       <Section 
+        title='Informações'
+        children={<Contacts/>}
+      />
+
+      <Section 
       title='Sobre Mim' 
-      content='Desenvolvedor fullstack Atualmente trabalho com C#,javascript,flutter Desenvolvedor fullstack Atualmente trabalho com C#,javascript,flutter Desenvolvedor fullstack Atualmente trabalho com C#,javascript,flutterDesenvolvedor fullstack Atualmente trabalho com C#,javascript,flutter Desenvolvedor fullstack Atualmente trabalho com C#,javascript,flutterDesenvolvedor fullstack Atualmente trabalho com C#,javascript,flutter Desenvolvedor fullstack Atualmente trabalho com C#,javascript,flutterDesenvolvedor fullstack Atualmente trabalho com C#,javascript,flutterDesenvolvedor fullstack Atualmente trabalho com C#,javascript,flutterDesenvolvedor fullstack Atualmente trabalho com C#,javascript,flutter'
+      content='Desenvolvedor fullstack atualmente trabalhando com a stack C#.Net,Angular e Flutter mais também possuo
+      conhecimento em NodeJs e React.'
       />
       <Section 
       title='Formações'
@@ -85,6 +93,7 @@ function App() {
                 </>     
               }
         />
+      
     </>
   )
 }

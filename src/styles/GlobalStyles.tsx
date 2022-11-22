@@ -25,6 +25,6 @@ export const GlobalStyle = createGlobalStyle`
         padding:0;
         margin:0;
         box-sizing:border-box;
-        background:rgba(168, 168, 168, 1);
+        background:rgb(235 235 235);;
     }
 `

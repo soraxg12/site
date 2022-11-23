@@ -5,19 +5,19 @@ export const Header = () => {
         <WrapperHeader>
             <ul>
                 <li>
-                    <a href="#">Sobre mim</a>
+                    <a href="#information">Informações</a>
                     <div></div>
                 </li>
                 <li>
-                    <a href="#">Informações</a>
+                    <a href="#sobre-mim">Sobre mim</a>
                     <div></div>
                 </li>
                 <li>
-                    <a href="#">Formações</a>
+                    <a href="#academics">Formações</a>
                     <div></div>
                 </li>
                 <li>
-                    <a href="#">Habilidades</a>
+                    <a href="#Skills">Habilidades</a>
                     <div></div>
                 </li>
             </ul>

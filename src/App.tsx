@@ -13,16 +13,19 @@ function App() {
     <>
       <Header/>
       <Section 
+        id='information'
         title='Informações'
         children={<Contacts/>}
       />
 
       <Section 
+      id='sobre-mim'
       title='Sobre Mim' 
       content='Desenvolvedor fullstack atualmente trabalhando com a stack C#.Net,Angular e Flutter mais também possuo
       conhecimento em NodeJs e React.'
       />
       <Section 
+      id='academics'
       title='Formações'
       children={
                 <>
@@ -54,6 +57,7 @@ function App() {
               }
         />
       <Section 
+      id='Skills'
       title='Habilidades'
       children={
                 <>

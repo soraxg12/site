@@ -1,5 +1,5 @@
-# Codigo fonte do meu site pessoal
+# Meu Site Pessoal
 
-## Feito com as tecnologias 
+## tecnologias :computer:
 - [x] Vite
 - [x] styled-components
